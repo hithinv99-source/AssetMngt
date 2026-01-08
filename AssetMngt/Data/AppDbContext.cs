@@ -10,6 +10,8 @@ namespace AssetMngt.Data
 
         }
         public DbSet<User> Users { get; set; }
+
+        
     }
 }
 
