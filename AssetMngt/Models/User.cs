@@ -15,6 +15,10 @@ namespace AssetMngt.Models
         Active,
         Inactive
     }
+    public int info
+    {
+        get; set;
+    }
     public class User
     {
         [Key]
