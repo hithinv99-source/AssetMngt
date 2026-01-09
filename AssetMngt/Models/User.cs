@@ -37,5 +37,8 @@ namespace AssetMngt.Models
             set;
         }
 
+        public String Userdetails
+            { get; set; }
+
     }
 }
