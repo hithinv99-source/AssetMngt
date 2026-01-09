@@ -31,5 +31,11 @@ namespace AssetMngt.Models
         [Required]
         public UserStatus Status { get; set; }
 
+        public String UserInfo
+        {
+            get;
+            set;
+        }
+
     }
 }
